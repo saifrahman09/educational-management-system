@@ -18,7 +18,7 @@ The pages are server-rendered PHP files. Database queries and form handling are 
 - Pagination page values are converted to integers and clamped to at least page 1.
 - Most CRUD queries use PDO prepared statements with bound values.
 
-This is a college project/prototype, not a production-ready school information system. In particular, account passwords still use legacy MD5, some delete actions use GET requests, and CSRF tokens and role-based permissions are not implemented. See [VIVA_PREP.md](./VIVA_PREP.md) for a concise discussion of these trade-offs.
+This is a college project/prototype, not a production-ready school information system. In particular, account passwords still use legacy MD5, some delete actions use GET requests, and CSRF tokens and role-based permissions are not implemented.
 
 ## Requirements
 
