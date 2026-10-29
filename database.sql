@@ -1,11 +1,3 @@
--- Educational Management System database
--- WARNING: Importing this file drops and recreates the six application tables.
-
-CREATE DATABASE IF NOT EXISTS `education`
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_unicode_ci;
-USE `education`;
-
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
